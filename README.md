@@ -44,7 +44,9 @@ pause
 - Subir la carpeta de "CLSID" editado.
 - Puede ser que debas instalar y desintalar Navicat
 
-# Por ejemplo es mi caso de esta manera los tengo los COMS del el CLSIS
+# Por ejemplo es mi caso de esta manera los tengo los COMS del el CLSID
+Windows Registry Editor Version 5.00
+
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID]
@@ -54,13 +56,14 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{274357B9-1BCB-A2CB-D720-BD78657755BD}\DefaultIcon]
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{274357B9-1BCB-A2CB-D720-BD78657755BD}\ShellFolder]
-
+////////////////////////////////////SOLO//ESTO//CAMBIO//DINAMICAMENTE////////////////////////////////
 [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{38142727-3008-9161-1521-349515000000}]
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{38142727-3008-9161-1521-349515000000}\LocalServer32]
 @="\"C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\ADNotificationManager.exe\" -ToastActivated"
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{F5F8BF08-353D-841E-453C-AA5D61059E74}]
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{F5F8BF08-353D-841E-453C-AA5D61059E74}\Info]
 "274357B91BCBA2CBD720BD78824CB729"="9B71D77E7A4AD82041CF145D665B551E"
+
